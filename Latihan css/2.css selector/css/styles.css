@@ -1,0 +1,46 @@
+/* universal selecor */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* type selector */
+h1 {
+  font-size: 30px;
+}
+
+/* class selector */
+.artikel {
+  font-size: 20px;
+}
+
+.credit {
+  font-size: 12px;
+}
+
+.penulis {
+  color: brown;
+}
+
+.tanggal {
+  color: chocolate;
+}
+
+/* id selector */
+#artikel-1 {
+  color: darkblue;
+}
+
+/* child selector */
+p > span {
+  color: brown;
+}
+
+/* first child */
+h3 + p {
+  color: blue;
+}
+
+/* all child */
+h1 ~ p {
+  text-align: justify;
+}

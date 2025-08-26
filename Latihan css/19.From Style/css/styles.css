@@ -1,0 +1,50 @@
+input {
+  font-size: 120%;
+  color: darkslategray;
+  background-color: #efefef;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  padding: 5px 5px 5px 40px;
+  display: block;
+  margin-bottom: 10px;
+
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+input:focus {
+  background-color: #ffffff;
+}
+
+input#email {
+  background-image: url("../images/email.png");
+  background-position: 8px;
+}
+
+input#instagram {
+  background-image: url("../images/instagram.png");
+  background-position: 8px;
+}
+
+input#web {
+  background-image: url("../images/web.png");
+  background-position: 8px;
+}
+
+input#submit {
+  color: white;
+  text-shadow: 1px 1px 5px white;
+  background-color: darkslategray;
+  padding: 5px 10px 5px 10px;
+}
+
+input#submit:hover {
+  color: orangered;
+  background-color: indigo;
+  cursor: pointer;
+}
+
+input#submit:active {
+  color: yellow;
+  background-color: lightcoral;
+}

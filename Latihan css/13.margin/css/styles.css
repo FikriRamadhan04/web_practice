@@ -1,0 +1,52 @@
+* {
+  font-family: Arial;
+}
+
+.dekor {
+  border: 5px solid;
+  padding: 20px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.margin-1 {
+  /* semua sisi */
+  margin: 5px;
+}
+
+.margin-2 {
+  /*   atas-bawah & kiri kanan */
+  margin: 10px 20px;
+}
+
+.margin-3 {
+  /*   atas & kanan kiri  & bawah*/
+  margin: 10px 20px 50px;
+}
+
+.margin-4 {
+  /*   atas & kanan & bawah & kiri*/
+  margin: 10px 20px 40px 100px;
+}
+
+.margin-5 {
+  /*   atas &  kanan kiri auto & bawah */
+  margin: 10px auto 50px;
+}
+
+.margin-6 {
+  /*   auto rata atas & kanan &  bawah & kiri*/
+  margin: auto 10px 50px 30px;
+}
+
+.margin-7 {
+  /* atas & kanan & bawah & auto rata kanan*/
+  margin: 10px 20px 30px auto;
+}
+
+.margin-8 {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: auto;
+}

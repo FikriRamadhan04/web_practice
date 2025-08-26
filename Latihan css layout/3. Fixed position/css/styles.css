@@ -1,0 +1,20 @@
+* {
+  font-family: tahoma;
+}
+
+p {
+  background-color: aqua;
+}
+
+.fixed-position {
+  background-color: coral;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100px;
+}
+
+.container {
+  margin-top: 130px;
+}

@@ -1,0 +1,21 @@
+* {
+  font-family: Arial;
+}
+
+.content {
+  font-size: 36px;
+  background-color: cadetblue;
+  width: 100px;
+  height: 40x;
+  border: 20px solid red;
+  text-align: center;
+  padding: 10px;
+  margin: 40px;
+}
+
+.container {
+  background-color: coral;
+  width: 240px;
+  height: 180px;
+  border: 2px solid black;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* foreground color */
+
+/* color name */
+h1 {
+  color: darkcyan;
+}
+
+/* hex code */
+h2 {
+  color: #ee3e80;
+}
+
+/* rgb value */
+P {
+  color: rgb(22, 97, 184);
+}
+
+/* background color */
+body {
+  background-color: #efefef;
+}
+
+h1 {
+  background-color: cornflowerblue;
+}
+
+h2 {
+  background-color: darkmagenta;
+}
+
+p {
+  background-color: rgb(58, 8, 92);
+}

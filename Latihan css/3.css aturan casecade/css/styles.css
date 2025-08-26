@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* last ruls */
+i {
+  color: brown;
+}
+
+/* warna yang di abil yang di bawah ini (yang terakhir */
+I {
+  color: blue;
+}
+
+/* spesifik */
+b {
+  color: crimson; /* level 1 */
+}
+
+p B {
+  color: darkorange !important; /* level 3 spesifik (dipaksa) */
+}
+
+p b {
+  color: blueviolet; /* level 2 */
+}
+
+/* studi kasus */
+p {
+  font-size: 100%;
+}
+
+p#pendahuluan {
+  font-size: 75%; /* spesifik (dipaksa) */
+  color: hotpink;
+}
+
+.keterangan {
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

@@ -1,0 +1,35 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+.border {
+  border: 1px solid;
+}
+
+.padding-1 {
+  background-color: brown;
+  padding: 40px;
+}
+
+.padding-2 {
+  background-color: blueviolet;
+  padding: 20px 50px; /*20px:atas bawah, 50px:kanan kiri*/
+}
+
+.padding-3 {
+  background-color: chocolate;
+  padding: 5px 20px 50px; /*5px:atas , 20px:kanan kiri 50px:bawah*/
+}
+
+.padding-4 {
+  background-color: chocolate;
+  padding: 5px 10px 20px 50px; /*5px:atas , 10px:kanan ,20px:bawa,50px:kiri*/
+}
+
+/* padding block */
+/* padding inline */
