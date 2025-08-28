@@ -34,10 +34,10 @@ body {
 .article {
   float: left;
   background-color: #efefef;
-  width: 280px;
+  width: 280px; /*(960:3 kotak = 320-m+=320-40=280) */
   height: 200px;
-  margin: 10px;
-  padding: 10px;
+  margin: 10px; /* 20:kana kiri */
+  padding: 10px; /* 20:kanan kiri */
 }
 
 #content {
