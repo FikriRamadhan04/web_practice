@@ -5,7 +5,7 @@ body {
   box-sizing: border-box;
 }
 
-.header {
+.cheader {
   text-align: center;
 }
 
@@ -17,20 +17,21 @@ body {
 #feature,
 #footer {
   background-color: burlywood;
+  margin-top: 5px;
+  margin-bottom: 5px;
   padding: 10px;
   text-align: center;
-  margin: 1%;
 }
 
 .column1,
 .column2,
 .column3 {
-  background-color: burlywood;
+  background: burlywood;
   width: 30%;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  padding: 0.66%;
   float: left;
-  margin-right: 2.5%;
-  margin-left: 2.5%;
-  margin: 1%;
 }
 
 .column1 {
