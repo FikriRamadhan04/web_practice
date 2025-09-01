@@ -1,53 +1,46 @@
 body {
   width: 960px;
-  margin: 0px auto;
+  margin: 0 auto;
   font-family: Arial;
 }
 
-#header h1 {
-  text-align: center;
+#content {
+  overflow: auto;
+  height: 100%;
 }
 
-#nav {
-  text-align: center;
+#nav,
+#feature,
+#footer {
   background-color: #efefef;
   padding: 10px;
   margin: 10px;
+  text-align: center;
 }
 
-#nav li {
+.column1,
+.column2,
+.column3 {
+  background-color: #efefef;
+  width: 280px;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#content h3 {
+  text-align: center;
+}
+
+#content p {
+  margin: 10px;
+}
+
+#feature img {
+  width: 120px;
+}
+
+li {
   display: inline;
   padding: 5px;
-}
-
-#highlight {
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  background-color: #efefef;
-}
-
-#highlight img {
-  width: 30%;
-}
-
-.article {
-  float: left;
-  background-color: #efefef;
-  width: 280px; /*(960:3 kotak = 320-m+=320-40=280) */
-  height: 200px;
-  margin: 10px; /* 20:kana kiri */
-  padding: 10px; /* 20:kanan kiri */
-}
-
-#content {
-  height: 100%;
-  overflow: auto;
-}
-
-#footer {
-  text-align: center;
-  padding: 10px;
-  margin: 10px;
-  background-color: #efefef;
 }
