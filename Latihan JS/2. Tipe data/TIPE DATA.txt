@@ -1,0 +1,19 @@
+TIPE DATA
+
+STRING
+   Sebuah Teks : "ucup" atau 'otoing'
+
+2. NUMBER
+   Angka : 0, 1.2, -5, -6.5
+
+3. BOOLEAN
+   True : 1
+   False : 0
+
+4. UNDEFINED
+   Belum ada isinya
+
+
+   "2"-> String : Karena ada tanda kutip
+
+	
