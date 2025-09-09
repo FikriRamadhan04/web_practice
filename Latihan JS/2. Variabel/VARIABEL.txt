@@ -1,0 +1,6 @@
+1.VARIABEL
+nama = variabel 
+data = 'ucup'
+
+LET,VAR,CONST
+
