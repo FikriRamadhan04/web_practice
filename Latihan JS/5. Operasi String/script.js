@@ -27,3 +27,41 @@ console.log(namaLengkap.indexOf("k"));
 console.log(namaLengkap.indexOf("c"));
 console.log(namaLengkap.indexOf("u"));
 console.log(namaLengkap.indexOf("U`"));
+
+// 4. substring
+let namaLengkap_5_12 = namaLengkap.substring(5, 12);
+console.log(namaLengkap.substring(5, 12));
+console.log(namaLengkap.substring(12, 5));
+
+// 5. slice
+console.log(namaLengkap.substring(5, 12));
+console.log(namaLengkap.slice(12, 5)); // menjadi kosong
+
+// 6. replace
+let namaBaru = namaLengkap.replace("Ucup Surucup", "Otong Surotong");
+console.log(namaBaru);
+
+namaBaru = namaLengkap.replace("Ucup Surucup", "Otong Surotong");
+console.log(namaBaru);
+
+namaLengkap = namaLengkap.replace("Ucup Surucup", "Otong Surotong");
+console.log(namaLengkap);
+
+// 7. toLowerCase
+console.log(namaLengkap.toLowerCase());
+
+// 8. uppercase
+console.log(namaLengkap.toUpperCase());
+
+// 9. extract data number
+let dataString2 = "10";
+console.log(typeof dataString2);
+let dataInteger = parseInt(dataString2);
+console.log(dataInteger);
+console.log(typeof dataInteger);
+
+let dataString3 = "10.125";
+console.log(typeof dataString3);
+let dataFloat = parseFloat(dataString3);
+console.log(dataFloat);
+console.log(typeof dataFloat);
