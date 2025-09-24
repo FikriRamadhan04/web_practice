@@ -10,17 +10,17 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="row text-center">
-        <h1>Latihan #1 - JavaScript data</h1>
-      </div>
+    <div class="text-center bg-blue-600">
+      <h1 class="p-3 text-white text-2xl font-bold">Kolom Input</h1>
     </div>
 
-    <div class="row justify-content-center mt-3">
+    <div class="justify-content-center row mt-3">
       <div class="col-4">
-        <div class="input-group">
+        <div class="input-grup">
           <input
             type="text"
             class="form-control"
@@ -32,24 +32,28 @@
       </div>
 
       <div class="col-4">
-        <div class="input-group">
+        <div class="input-grup">
           <input
             type="text"
             class="form-control"
             id="nama_belakang"
             placeholder="nama belakang"
-            aria-placeholder="nama belakang"
+            arial-placeholder="nama belakang"
           />
         </div>
       </div>
 
-      <div class="row justify-content-center mt-4">
-        <button type="button" class="btn btn-primary col-2" id="button_merger">
+      <div class="justify-content-center row mt-3">
+        <button
+          type="button"
+          class="bg-blue-500 px-4 py-2 rounded-3 shadow-black text-white w-auto"
+          id="button_merger"
+        >
           Merger
         </button>
       </div>
 
-      <div class="row justify-content-center text-center mt-4">
+      <div class="justify-content-center row text-center mt-4">
         <span id="nama_lengkap"></span>
       </div>
     </div>
@@ -59,6 +63,6 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="tes.js"></script>
   </body>
 </html>
