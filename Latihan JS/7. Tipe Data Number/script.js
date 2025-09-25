@@ -34,3 +34,11 @@ let pembelian = "10000";
 let pajak = 1200;
 let bayar = parseInt(pembelian) + pajak;
 console.log(bayar);
+
+let pembelian_a = "10000";
+let pajak_a = 1200;
+let pembelian_b = "20000";
+let pajak_b = 2400;
+
+let total = parseInt(pembelian_a) + parseInt(pembelian_b) + pajak_a + pajak_b;
+console.log(total);
