@@ -1,42 +1,57 @@
-// Operator Aritmatika
+// Operator Logika
 
-// ekspresi (expression) dan statement
+// And, OR, Not
 
-// */+-
-// % <- modulo
-// ++ <- increment
-// -- <- decrement
-// ** <- pangkat atau power
+let data_bool = true;
+console.log(data_bool);
 
-let x = 10;
-console.log(x + 1);
-console.log(x - 1);
-console.log(x / 4);
-console.log(x * 2);
+// 1. Not
+console.log(!data_bool); // ngeflip data boolean
+console.log(!data_bool);
+console.log(!1);
+console.log(!0);
 
-// artimatika khusus di javascript
-console.log(x % 3); // sisa pembagian
-console.log(x ** 2);
+let is_keren = true;
+let is_jelek = !is_keren;
 
-// pemograman biasa
-x = x + 1;
-console.log(x);
-x = x + 1;
-console.log(x);
+// 2. OR || (operasi antar dua variabel boolean)
+// A      true true  false flase
+// B.     true false true  false
+// Hasil  true true  true  false
 
-x++;
-x++;
-console.log(x);
+// 2. OR || (operasi antar dua variabel boolean)
+// A      1 1 0 0
+// B.     1 0 1 0
+// Hasil  1 1 1 0
 
-x = x - 1;
-console.log(x);
+console.log(`A = true || B = true, Hasil = ${true || true}`);
+console.log(`A = true || B = false, Hasil = ${true || false}`);
+console.log(`A= false || B= true, Hasil = ${false || true}`);
+console.log(`A = false || B= false, Hasil = ${false || false}`);
 
-x--;
-console.log(x);
+let makan = true;
+let minum = true;
 
-// studi kasus (number + string , string harus di parseFloat atau parseInt dulu )
-let y = 1 + "1";
-console.log(y);
+let sudah_menyantap = makan || minum;
+console.log(`sudah menyantap =  ${sudah_menyantap}`);
 
-let z = 1 + parseFloat("1");
-console.log(z);
+// 3. AND -> && (operasi antara dua variabel boolean)
+// A      true true  false false
+// B.     true false true  false
+// Hasil  true false false false
+
+// 3. AND -> && (operasi antara dua variabel boolean)
+// A      1 1 0 0
+// B.     1 0 1 0
+// Hasil  1 0 0 0
+
+console.log(`A = true && B = true, Hasil = ${true && true}`);
+console.log(`A = true && B = false, Hasil = ${true && false}`);
+console.log(`A= false && B= true, Hasil = ${false && true}`);
+console.log(`A = false && B= false, Hasil = ${false && false}`);
+
+makan = false;
+minum = false;
+
+let sudah_makmin = makan && minum;
+console.log(`sudah makan dan minum? =  ${sudah_makmin}`);
